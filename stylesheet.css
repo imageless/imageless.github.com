@@ -29,7 +29,7 @@ body {
   color: #4b5d80;
 }
 
-#logo:hover:after {
+#logo:hover:before {
   display: none;
 }
 
