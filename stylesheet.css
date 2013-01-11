@@ -29,8 +29,16 @@ body {
   color: #4b5d80;
 }
 
+#logo:hover:after {
+  z-index: 0;
+}
 #logo:hover:before {
-  display: none;
+  border-color: #d81e1e;
+  background-image: -webkit-repeating-linear-gradient(45deg,transparent,transparent 2.41em,#d81e1e 2.41em,#d81e1e 2.78em);
+  background-image: -moz-repeating-linear-gradient(45deg,transparent,transparent 2.41em,#d81e1e 2.41em,#d81e1e 2.78em);
+  background-image: -o-repeating-linear-gradient(45deg,transparent,transparent 2.41em,#d81e1e 2.41em,#d81e1e 2.78em);
+  background-image: -ms-repeating-linear-gradient(45deg,transparent,transparent 2.41em,#d81e1e 2.41em,#d81e1e 2.78em);
+  background-image: repeating-linear-gradient(45deg,transparent,transparent 2.41em,#d81e1e 2.41em,#d81e1e 2.78em);
 }
 
 #logo:before {
