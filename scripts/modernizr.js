@@ -218,6 +218,16 @@ window.Modernizr = (function( window, document, undefined ) {
 
         return contains(mStyle.backgroundImage, 'gradient');
     };
+    tests['cssanglegradients'] = function() {
+        var str1 = 'background-image:',
+            str2 = 'linear-gradient(left top,#9f9, white);';
+
+        setCss(
+                       (prefixes.join(str2 + str1)).slice(0, -str1.length)
+        );
+
+        return contains(mStyle.backgroundImage, 'gradient');
+    };
 
     tests['fontface'] = function() {
         var bool;

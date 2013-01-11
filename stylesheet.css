@@ -82,6 +82,7 @@ body {
 .no-backgroundsize #logo,
 .no-borderradius #logo,
 .no-cssgradients #logo,
+.no-cssanglegradients #logo,
 .no-fontface #logo,
 .no-generatedcontent #logo
 {
@@ -95,6 +96,7 @@ body {
 .no-backgroundsize #logo:before, .no-backgroundsize #logo:after,
 .no-borderradius #logo:before, .no-borderradius #logo:after,
 .no-cssgradients #logo:before, .no-cssgradients #logo:after,
+.no-cssanglegradients #logo:before, .no-cssanglegradients #logo:after,
 .no-fontface #logo:before, .no-fontface #logo:after
 {
   display: none;
