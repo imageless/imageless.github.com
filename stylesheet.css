@@ -3,7 +3,18 @@ body {
   padding: .5em;
   margin: 0;
   text-align: center;
-  background-color: #fff;
+  background-color: #eee;
+  background-image: -webkit-linear-gradient(#DADADA 2px, transparent 2px), -webkit-linear-gradient(0deg, rgba(185, 185, 185, .3) 2px, transparent 2px), -webkit-linear-gradient(rgba(185, 185, 185, .3) 1px, transparent 1px), -webkit-linear-gradient(0deg, rgba(185, 185, 185, .3) 1px, transparent 1px);
+  background-image: -moz-linear-gradient(#DADADA 2px, transparent 2px), -moz-linear-gradient(0deg, rgba(185, 185, 185, .3) 2px, transparent 2px), -moz-linear-gradient(rgba(185, 185, 185, .3) 1px, transparent 1px), -moz-linear-gradient(0deg, rgba(185, 185, 185, .3) 1px, transparent 1px);
+  background-image: -o-linear-gradient(#DADADA 2px, transparent 2px), -o-linear-gradient(0deg, rgba(185, 185, 185, .3) 2px, transparent 2px), -o-linear-gradient(rgba(185, 185, 185, .3) 1px, transparent 1px), -o-linear-gradient(0deg, rgba(185, 185, 185, .3) 1px, transparent 1px);
+  background-image: -ms-linear-gradient(#DADADA 2px, transparent 2px), -ms-linear-gradient(0deg, rgba(185, 185, 185, .3) 2px, transparent 2px), -ms-linear-gradient(rgba(185, 185, 185, .3) 1px, transparent 1px), -ms-linear-gradient(0deg, rgba(185, 185, 185, .3) 1px, transparent 1px);
+  background-image: linear-gradient(#DADADA 2px, transparent 2px), linear-gradient(to right, rgba(185, 185, 185, .3) 2px, transparent 2px), linear-gradient(rgba(185, 185, 185, .3) 1px, transparent 1px), linear-gradient(to right, rgba(185, 185, 185, .3) 1px, transparent 1px);
+
+  -webkit-background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  -moz-background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
 /* Font */
@@ -19,9 +30,19 @@ body {
 
 }
 
+.box {
+  display: inline-block;
+  position: relative;
+  padding: 1em;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  background: whiteSmoke;
+}
+
 #logo {
   display: inline-block;
   position: relative;
+  z-index: 1;
   padding-top: 4.8em;
   text-align: center;
   text-decoration: none;
