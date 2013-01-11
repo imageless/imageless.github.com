@@ -37,11 +37,11 @@ body {
 }
 
 #logo:hover {
-  -webkit-transform: scale(1.5) rotate(-360deg);
-  -moz-transform: scale(1.5) rotate(-360deg);
-  -o-transform: scale(1.5) rotate(-360deg);
-  -ms-transform: scale(1.5) rotate(-360deg);
-  transform: scale(1.5) rotate(-360deg);
+  -webkit-transform: scale(1.25) rotate(-360deg);
+  -moz-transform: scale(1.25) rotate(-360deg);
+  -o-transform: scale(1.25) rotate(-360deg);
+  -ms-transform: scale(1.25) rotate(-360deg);
+  transform: scale(1.25) rotate(-360deg);
 }
 
 #logo:before {
