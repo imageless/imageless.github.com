@@ -23,25 +23,14 @@ body {
   display: inline-block;
   position: relative;
   padding-top: 4.8em;
-  margin-top: 1.5em;
   text-align: center;
   text-decoration: none;
   font-family: RobotoBoldCondensed, sans-serif;
   color: #4b5d80;
-  
-  -webkit-transition: all .7s ease-in-out;
-  -moz-transition: all .7s ease-in-out;
-  -o-transition: all .7s ease-in-out;
-  -ms-transition: all .7s ease-in-out;
-  transition: all .7s ease-in-out;
 }
 
-#logo:hover {
-  -webkit-transform: scale(1.25) rotate(-360deg);
-  -moz-transform: scale(1.25) rotate(-360deg);
-  -o-transform: scale(1.25) rotate(-360deg);
-  -ms-transform: scale(1.25) rotate(-360deg);
-  transform: scale(1.25) rotate(-360deg);
+#logo:hover:after {
+  display: none;
 }
 
 #logo:before {
