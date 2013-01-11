@@ -76,3 +76,26 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Provide pure image fallback for user agents that don't support required CSS3
+ * features*/
+.no-multiplebgs #logo,
+.no-backgroundsize #logo,
+.no-borderradius #logo,
+.no-cssgradients #logo,
+.no-fontface #logo,
+.no-generatedcontent #logo
+{
+  background-image: url('/images/imageless_logo.png');
+  background-repeat: no-repeat;
+  color: transparent;
+}
+/* Also in case user agent doesn't support one of required features hide
+ * generated content */
+.no-multiplebgs #logo:before, .no-multiplebgs #logo:after,
+.no-backgroundsize #logo:before, .no-backgroundsize #logo:after,
+.no-borderradius #logo:before, .no-borderradius #logo:after,
+.no-cssgradients #logo:before, .no-cssgradients #logo:after,
+.no-fontface #logo:before, .no-fontface #logo:after
+{
+  display: none;
+}
